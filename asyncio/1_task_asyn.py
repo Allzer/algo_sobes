@@ -13,8 +13,10 @@ async def main():
         task("A", 2),
         task("B", 1),
         task("C", 3),
-        task("C", 5),
+        task("D", 3),
     )
+
+    # await task("qwe", 1)
 
     print(time.time() - start)
     print("all task complete")
